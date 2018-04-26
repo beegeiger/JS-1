@@ -91,8 +91,12 @@ showBalaceStatus(2200)
 showBalaceStatus(5)
 showBalaceStatus(-30)
 
-function showTransactions(cartograph, begBalance) {
-	console.log(begBalance); {}
+
+function showTransactions(cartograph, begBalance = 26000) {
+	console.log(begBalance);
+	for (let anyTransaction of transactions){
+		
+	}
 }
 
 // ///////////////////////////////////////////////////////
